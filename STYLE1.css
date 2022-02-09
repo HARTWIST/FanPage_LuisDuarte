@@ -1,0 +1,107 @@
+body{
+	background-color: black;
+}
+footer{
+	background-color: white;
+	height: 340px;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-size: 100;
+	font-family: cinzel;
+}
+header{
+	background-image: url(fundoheader.png);
+	position: relative;
+    height: 902px;
+}
+h2{
+	color: white;
+	text-align: center;
+	font-size: 50;
+	font-family: cinzel;
+}
+p{
+	color: white;
+	text-align: center;
+}
+.ptext{
+	color: black;
+}
+.pbio{
+	color: white;
+	width: 1000px;
+	float: right;
+	top: 10px;
+	bottom: 10px;
+	font-size: 20px;
+}
+.dorian3d{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 30%;
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+    left: 0;
+    right: 10;
+    box-sizing: border-box;
+    animation: mover 1s;
+}
+@keyframes mover {
+  from {left: 100px;}
+  to {left: 0px;}
+}
+ol{
+	color: white;	
+	-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  column-gap: 40px;
+}
+ul{
+	color: black;	
+	text-align: right;
+	-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+.left{
+	float: left;
+	top: 10px;
+	bottom: 10px;
+}
+.right{
+	float: right;
+	top: 10px;
+	bottom: 10px;
+}
+.clearfix {
+  overflow: auto;
+}
+.divlisten{
+	position: fixed;
+    top: 20px;
+	float:right;
+	width: 400px;
+	height: 150px;
+	text-align: center;
+	animation: mover 1s;
+}
+li{
+	font-size: 20px;
+	font-family: cinzel;
+	color: white;
+}
+.bli{
+	font-size: 20px;
+	font-family: cinzel;
+	color: black;
+}
+div{
+	padding: 10px;
+}
+
+
